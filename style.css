@@ -416,7 +416,7 @@ transition: .75s;
         text-align: center;
         }
         .filed-1{
-            height: 45vh;
+            height: 35vh;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -424,7 +424,7 @@ transition: .75s;
             margin: 30px  0px 20px 0px;
         }
         .child1{
-            height: 45vh;
+            height: 35vh;
             width: 45%; 
             
         }
@@ -438,23 +438,24 @@ transition: .75s;
         }
         
         .text-up-list{
-            height:50%;
+            height:20vh;
             width: 100%;  
             text-align: center; 
             
         }
         .text-up-list h2{
-            margin: 20px;
+            margin: 25px;
             
         }
         .text-up-list p{
             margin: 20px;
-            font-size: 15.5px;
+            margin-bottom: 15px;
+            font-size: 20px;
             
         }
         
         .child2 ul{
-            height:50%;
+            height:15vh;
             width: 90%; 
             list-style: none;
             
@@ -462,14 +463,13 @@ transition: .75s;
         
         .child2 li{
             margin-top: 15px;
-            margin-top: 15px;
-            font-size: 14px;
+            font-size: 13px;
 
         }
 
 
         .info{
-            height: 40vh;
+            height: 23vh;
             width: 100%;
             background-color: rgba(0, 0, 0, 0.786);
             color: rgba(240, 248, 255, 0.688);
@@ -479,11 +479,11 @@ transition: .75s;
         }
         .div-c{
             width: 22%;
-            height: 40vh;
+            height: 23vh;
         }
         .div-c3{
             width: 23%;
-            height: 40vh;
+            height: 23vh;
         }
         .div-c3 ul{
          list-style: none ;
@@ -513,7 +513,7 @@ transition: .75s;
         
         .foot{
             width: 100%;
-            height: 10vh;
+            height: 5vh;
             background-color: rgba(0, 0, 0, 0.826);
            display: flex;
            justify-content: center;
@@ -521,17 +521,17 @@ transition: .75s;
         }
         .foot-c{
             width: 20%;
-            height: 10vh;
+            height: 5vh;
             display: flex;
             align-items: center;
         }
         .foot-c img{
             width: 100%;
-            height: 8vh;
+            height: 3vh;
         }
 
         .backgr-img{
-            height: 40vh;
+            height: 30vh;
             background-image: url("./imgs/sweet-pastry-assortment-top-view.jpg");
             background-position: center center;
             background-size: cover;
@@ -545,7 +545,7 @@ transition: .75s;
         /* //////////////////////////////////////////////////////// */
 
 .home{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url("./imgs/home.jpeg");
     background-position: center center;
@@ -573,7 +573,7 @@ transition: .75s;
 }
 .navbar-logo img{
     width: 40%;
-    height: 70%;
+    height: 50%;
    
 }
 .navbar-list{
@@ -604,7 +604,7 @@ transition: .75s;
     }
 
 .text{
-    height: 90vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     justify-content: center;
