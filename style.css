@@ -375,7 +375,7 @@ transition: .75s;
         }
         .info h2{
         margin: 1px;
-        margin-top: 10px;
+        margin-top: 9px;
         width: 100%;
         font-size:  9px;
         }
@@ -471,8 +471,8 @@ transition: .75s;
     padding: 0;
 }
 .navbar-list li{
-    font-size: 10px ;
-    width: 16% ;
+    font-size: 9px ;
+    width: 16.5% ;
     text-align: center;
     }
 .navbar-list li:hover{
