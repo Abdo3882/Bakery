@@ -409,7 +409,7 @@ transition: .75s;
         }
 }
 
-@media (min-width:550px) and (max-width:800px){
+@media (min-width:300px) and (max-width:500px){
     .navbar-list li{
         font-size: 20px ;
         width: 15% ;
@@ -444,13 +444,13 @@ transition: .75s;
             
         }
         .text-up-list h2{
-            margin: 25px;
+            margin: 15px;
             
         }
         .text-up-list p{
-            margin: 20px;
+            margin: 15px;
             margin-bottom: 15px;
-            font-size: 20px;
+            font-size: 10px;
             
         }
         
@@ -458,18 +458,21 @@ transition: .75s;
             height:15vh;
             width: 90%; 
             list-style: none;
+            margin: 0;
+            padding: 0;
             
         }
         
         .child2 li{
             margin-top: 15px;
-            font-size: 13px;
+            font-size: 8px;
+            text-align: center;
 
         }
 
 
         .info{
-            height: 23vh;
+            height: 26vh;
             width: 100%;
             background-color: rgba(0, 0, 0, 0.786);
             color: rgba(240, 248, 255, 0.688);
@@ -479,11 +482,11 @@ transition: .75s;
         }
         .div-c{
             width: 22%;
-            height: 23vh;
+            height: 26vh;
         }
         .div-c3{
             width: 23%;
-            height: 23vh;
+            height: 26vh;
         }
         .div-c3 ul{
          list-style: none ;
@@ -497,19 +500,22 @@ transition: .75s;
             padding-bottom: 10px;
             margin-top: 1px;
             list-style: none ;
+            font-size: 7px;
             
         }
         .info h2{
         margin: 1px;
         margin-top: 10px;
         width: 100%;
-        font-size:  17px;
+        font-size:  13px;
         }
         .div-c p {
-        line-height: 15px;
+        line-height: 12px;
         margin-bottom: 13px;
+        font-size: 7px;
         
         }
+        
         
         .foot{
             width: 100%;
@@ -592,9 +598,10 @@ transition: .75s;
     list-style: none;
     color: aliceblue;
     margin: 0;
+    padding: 0;
 }
 .navbar-list li{
-    font-size: 18px ;
+    font-size: 10px ;
     width: 16% ;
     text-align: center;
     }
@@ -611,23 +618,23 @@ transition: .75s;
     align-items: center;
 }
 .text div{
-    width: 50%;
+    width: 70%;
     height: 40vh;
     color: aliceblue;
     text-align: center;
     
 }
 .text h2{
-   font-size: 40px;
+   font-size: 25px;
    margin-bottom: 5px;
 }
 .text h1{
-    font-size: 55px;
+    font-size: 35px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 .text p{
-    font-size: 22px;
+    font-size: 15px;
     margin-bottom: 35px;
 }
 
@@ -638,7 +645,7 @@ transition: .75s;
     padding: 10px;
     border-radius: 5px;
     margin-right: 5px;
-    width: 30%;
+    width: 40%;
 }
 .btn2{
     color: aliceblue;
@@ -646,7 +653,7 @@ transition: .75s;
     border: 2px  solid rgb(255, 255, 255);
     padding: 10px;
     border-radius: 5px;
-    width: 30%;
+    width: 40%;
 }
 
 .btn1:hover{
@@ -678,4 +685,31 @@ transition: 1s;
         
     }
 
+    .parent{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+        justify-content: space-evenly;
+    }
+    .child{
+        width: 32%;
+        margin-right: 0px;
+    
+        
+    }
+    .child img{
+        width: 80%;
+    
+    }
+    .child p{
+        font-size: 10px;
+    
+        
+    }
+    .child h2{
+        font-size: 16px;
+    
+        
+    }
 }
