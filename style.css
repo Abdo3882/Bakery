@@ -27,9 +27,9 @@ body{
 .navbar-logo{
     width: 30%;
     height: 10vh;
-    justify-content: center;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 .navbar-logo img{
     width: 40%;
@@ -41,19 +41,26 @@ body{
     height: 10vh;
     align-items: center;
     display: flex;
+    
 }
 .navbar-list ul{
     width: 100%;
+    height: 10vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
     color: aliceblue;
+    margin: 0;
 }
 .navbar-list li{
-    font-size: 20px ;
+    font-size: 25px ;
+    width: 10% ;
+    text-align: center;
     }
 .navbar-list li:hover{
-    color:rgb(240, 162, 60);
+    color: rgb(240, 162, 60) ;
+    transition: .5s;
     }
 
 .text{
@@ -104,15 +111,14 @@ body{
 .btn1:hover{
 background-color:rgb(240, 162, 60);
 border:  2px  solid rgb(240, 162, 60);
+transition: 1s;
 }
 .btn2:hover{
     background-color:rgb(240, 162, 60);
     border:  2px  solid rgb(240, 162, 60);
+    transition: 1s;
     }
-    .btn2:hover{
-    background-color:rgb(240, 162, 60);
-    border:  2px  solid rgb(240, 162, 60);
-    }
+    
 
 /* /////////////////////////////////////////////////////////////////////// */
 
@@ -269,6 +275,407 @@ margin-bottom: 25px;
 
 * img:hover{
 border-radius: 100px;
+transition: .75s;
+}
+@media (min-width:850px) and (max-width:1050px){
+    .navbar-list li{
+        font-size: 20px ;
+        width: 15% ;
+        text-align: center;
+        }
+        .filed-1{
+            height: 45vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap:  30px;
+            margin: 30px  0px 20px 0px;
+        }
+        .child1{
+            height: 45vh;
+            width: 45%; 
+            
+        }
+        .child1 img{
+            width: 100%;
+            height: 100%;
+        }
+        .child2{
+            height: 45vh;
+            width: 45%; 
+        }
+        
+        .text-up-list{
+            height:50%;
+            width: 100%;  
+            text-align: center; 
+            
+        }
+        .text-up-list h2{
+            margin: 30px;
+            
+        }
+        .text-up-list p{
+            margin: 20px;
+            font-size: 17.5px;
+            
+        }
+        
+        .child2 ul{
+            height:50%;
+            width: 90%; 
+            list-style: none;
+            
+        }
+        
+        .child2 li{
+            margin-top: 25px;
+            font-size: 16.5px;
+        }
+
+
+        .info{
+            height: 40vh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.786);
+            color: rgba(240, 248, 255, 0.688);
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .div-c{
+            width: 22%;
+            height: 40vh;
+        }
+        .div-c3{
+            width: 23%;
+            height: 40vh;
+        }
+        .div-c3 ul{
+         list-style: none ;
+        
+         padding: 0px;
+        }
+        .div-c3 li{
+            border-width: 0px 0px 2px 0px;
+            border-style:  solid ;
+            border-color: rgba(240, 248, 255, 0.2);
+            padding-bottom: 12px;
+            margin-top: 1px;
+            list-style: none ;
+            
+        }
+        .info h2{
+        margin: 1px;
+        margin-top: 10px;
+        width: 100%;
+        font-size:  22px;
+        }
+        .div-c p {
+        line-height: 20px;
+        margin-bottom: 15px;
+        
+        }
+        
+        .foot{
+            width: 100%;
+            height: 10vh;
+            background-color: rgba(0, 0, 0, 0.826);
+           display: flex;
+           justify-content: center;
+        
+        }
+        .foot-c{
+            width: 20%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+        }
+        .foot-c img{
+            width: 100%;
+            height: 8vh;
+        }
+
+        .backgr-img{
+            height: 40vh;
+            background-image: url("./imgs/sweet-pastry-assortment-top-view.jpg");
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
 }
 
+@media (min-width:550px) and (max-width:800px){
+    .navbar-list li{
+        font-size: 20px ;
+        width: 15% ;
+        text-align: center;
+        }
+        .filed-1{
+            height: 45vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap:  30px;
+            margin: 30px  0px 20px 0px;
+        }
+        .child1{
+            height: 45vh;
+            width: 45%; 
+            
+        }
+        .child1 img{
+            width: 100%;
+            height: 100%;
+        }
+        .child2{
+            height: 45vh;
+            width: 45%; 
+        }
+        
+        .text-up-list{
+            height:50%;
+            width: 100%;  
+            text-align: center; 
+            
+        }
+        .text-up-list h2{
+            margin: 20px;
+            
+        }
+        .text-up-list p{
+            margin: 20px;
+            font-size: 15.5px;
+            
+        }
+        
+        .child2 ul{
+            height:50%;
+            width: 90%; 
+            list-style: none;
+            
+        }
+        
+        .child2 li{
+            margin-top: 15px;
+            margin-top: 15px;
+            font-size: 14px;
 
+        }
+
+
+        .info{
+            height: 40vh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.786);
+            color: rgba(240, 248, 255, 0.688);
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .div-c{
+            width: 22%;
+            height: 40vh;
+        }
+        .div-c3{
+            width: 23%;
+            height: 40vh;
+        }
+        .div-c3 ul{
+         list-style: none ;
+        
+         padding: 0px;
+        }
+        .div-c3 li{
+            border-width: 0px 0px 2px 0px;
+            border-style:  solid ;
+            border-color: rgba(240, 248, 255, 0.2);
+            padding-bottom: 10px;
+            margin-top: 1px;
+            list-style: none ;
+            
+        }
+        .info h2{
+        margin: 1px;
+        margin-top: 10px;
+        width: 100%;
+        font-size:  17px;
+        }
+        .div-c p {
+        line-height: 15px;
+        margin-bottom: 13px;
+        
+        }
+        
+        .foot{
+            width: 100%;
+            height: 10vh;
+            background-color: rgba(0, 0, 0, 0.826);
+           display: flex;
+           justify-content: center;
+        
+        }
+        .foot-c{
+            width: 20%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+        }
+        .foot-c img{
+            width: 100%;
+            height: 8vh;
+        }
+
+        .backgr-img{
+            height: 40vh;
+            background-image: url("./imgs/sweet-pastry-assortment-top-view.jpg");
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* //////////////////////////////////////////////////////// */
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./imgs/home.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    
+}
+
+.navbar-logo{
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-logo img{
+    width: 40%;
+    height: 70%;
+   
+}
+.navbar-list{
+    width: 70%;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    
+}
+.navbar-list ul{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: aliceblue;
+    margin: 0;
+}
+.navbar-list li{
+    font-size: 18px ;
+    width: 16% ;
+    text-align: center;
+    }
+.navbar-list li:hover{
+    color: rgb(240, 162, 60) ;
+    transition: .5s;
+    }
+
+.text{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text div{
+    width: 50%;
+    height: 40vh;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.text h2{
+   font-size: 40px;
+   margin-bottom: 5px;
+}
+.text h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text p{
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.btn1{
+    color: aliceblue;
+    background-color: rgb(154, 126, 89);
+    border: 2px  solid rgb(154, 126, 89);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 30%;
+}
+.btn2{
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px  solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.btn1:hover{
+background-color:rgb(240, 162, 60);
+border:  2px  solid rgb(240, 162, 60);
+transition: 1s;
+}
+.btn2:hover{
+    background-color:rgb(240, 162, 60);
+    border:  2px  solid rgb(240, 162, 60);
+    transition: 1s;
+    }
+    
+
+/* /////////////////////////////////////////////////////////////////////// */
+* img:hover{
+    border-radius: 50px;
+    transition: .75s;
+    }
+
+    .navbar-logo img:hover{
+        
+        border-radius: 1px;
+        
+    }
+    .foot-c img:hover{
+        
+        border-radius: 1px;
+        
+    }
+
+}
