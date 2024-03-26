@@ -279,7 +279,7 @@ transition: .75s;
 }
 
 
-@media (min-width:100px) and (max-width:500px){
+@media (min-width:100px) and (max-width:600px){
     .navbar-list li{
         font-size: 20px ;
         width: 15% ;
@@ -377,12 +377,12 @@ transition: .75s;
         margin: 1px;
         margin-top: 10px;
         width: 100%;
-        font-size:  13px;
+        font-size:  11px;
         }
         .div-c p {
-        line-height: 12px;
+        line-height: 11px;
         margin-bottom: 13px;
-        font-size: 7px;
+        font-size: 9px;
         
         }
         
@@ -441,7 +441,7 @@ transition: .75s;
 }
 
 .navbar-logo{
-    width: 30%;
+    width: 25%;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -449,11 +449,11 @@ transition: .75s;
 }
 .navbar-logo img{
     width: 40%;
-    height: 50%;
+    height: 40%;
    
 }
 .navbar-list{
-    width: 70%;
+    width: 75%;
     height: 10vh;
     align-items: center;
     display: flex;
@@ -540,7 +540,7 @@ transition: 1s;
 
 /* /////////////////////////////////////////////////////////////////////// */
 * img:hover{
-    border-radius: 50px;
+    border-radius: 30px;
     transition: .75s;
     }
 
@@ -578,7 +578,7 @@ transition: 1s;
         
     }
     .child h2{
-        font-size: 16px;
+        font-size: 14px;
     
         
     }
