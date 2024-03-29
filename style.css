@@ -380,7 +380,7 @@ transition: .75s;
         font-size:  9px;
         }
         .div-c p {
-        line-height: 9px;
+        line-height: 10px;
         margin-bottom: 13px;
         font-size: 6px;
         
@@ -581,5 +581,8 @@ transition: 1s;
         font-size: 14px;
     
         
+    }
+    #wen{
+        padding-bottom: 17px;
     }
 }
