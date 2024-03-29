@@ -342,7 +342,7 @@ transition: .75s;
 
 
         .info{
-            height: 22vh;
+            height: 18vh;
             width: 100%;
             background-color: rgba(0, 0, 0, 0.786);
             color: rgba(240, 248, 255, 0.688);
@@ -352,11 +352,11 @@ transition: .75s;
         }
         .div-c{
             width: 21%;
-            height: 22vh;
+            height: 18vh;
         }
         .div-c3{
             width: 26%;
-            height: 22vh;
+            height: 18vh;
         }
         .div-c3 ul{
          list-style: none ;
